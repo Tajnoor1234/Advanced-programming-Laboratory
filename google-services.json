@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910183147945",
+    "project_id": "tunesphere1-df2c5",
+    "storage_bucket": "tunesphere1-df2c5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910183147945:android:f54572ea95fcdb4cea7cb8",
+        "android_client_info": {
+          "package_name": "com.example.tunesphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiKYeIT0Ep11HgJ_O94LJgekXxCYFir4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

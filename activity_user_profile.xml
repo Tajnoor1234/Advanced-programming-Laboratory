@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_mode">
+
+    <TextView
+        android:id="@+id/userNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/userNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/userNameLabel"
+        android:layout_marginStart="20dp"
+        android:layout_alignBaseline="@id/userNameLabel"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="User Name" />
+
+    <TextView
+        android:id="@+id/userEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/userNameLabel"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/userEmailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/userEmailLabel"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_alignBaseline="@id/userEmailLabel"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:id="@+id/updateNameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Name"
+        android:layout_below="@id/userEmailTV"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/currentPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/updateNameButton"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/currentPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/currentPasswordLabel"
+        android:layout_marginStart="20dp"
+        android:layout_alignBaseline="@id/currentPasswordLabel"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="Current Password" />
+
+    <TextView
+        android:id="@+id/newPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/currentPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/newPasswordLabel"
+        android:layout_marginStart="20dp"
+        android:layout_alignBaseline="@id/newPasswordLabel"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="New Password" />
+
+    <Button
+        android:id="@+id/updatePasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Password"
+        android:layout_below="@id/newPassword"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/deleteAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:layout_below="@id/updatePasswordButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
